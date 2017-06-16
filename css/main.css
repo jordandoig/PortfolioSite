@@ -13,15 +13,12 @@ html, body {
   width: 100%;
   background-color: #ffffff;
   color: #404041;
-  margin: 0;
 }
 
 header {
   font-family: "Dosis", sans-serif;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  align-items: center;
   height: 5em;
   width: 100%;
   color: #2A4363;
@@ -47,4 +44,9 @@ main {
   border: 2px solid #45BD9C;
   background-color: #45BD9C;
   color: #ffffff;
+}
+
+.logo {
+  height: 10em;
+
 }

@@ -3,6 +3,7 @@
 #45BD9C - Darker Green
 #64C6BC - Tealish Green
 #ffffff - White
+#404041 - Dark Grey for text
 */
 
 html, body {
@@ -10,18 +11,20 @@ html, body {
   flex-direction: column;
   height: 100%;
   width: 100%;
-  background-color: #45BD9C;
-  color: #2A4363;
+  background-color: #ffffff;
+  color: #404041;
   margin: 0;
 }
 
 header {
+  font-family: "Dosis", sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   height: 5em;
   width: 100%;
+  color: #2A4363;
 }
 
 h2 {
@@ -31,10 +34,17 @@ h2 {
 main {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-.logoBox {
-  background-color: black;
-  height: 25em;
-  width: 25em;
+.button {
+  padding: 1em;
+  border: 2px solid #2A4363;
+}
+
+.hover {
+  border: 2px solid #64C6BC;
+  background-color: #64C6BC;
+  color: #ffffff;
 }

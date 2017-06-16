@@ -1,6 +1,7 @@
 html, body {
   display: flex;
-  height: 105%;
-  width: 105%;
+  height: 100%;
+  width: 100%;
   background-color: black;
+  color: white;
 }

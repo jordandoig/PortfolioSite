@@ -1,7 +1,40 @@
+/* Color Palette
+#2A4363 - Dark Blue
+#45BD9C - Darker Green
+#64C6BC - Tealish Green
+#ffffff - White
+*/
+
 html, body {
   display: flex;
+  flex-direction: column;
   height: 100%;
   width: 100%;
+  background-color: #45BD9C;
+  color: #2A4363;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 5em;
+  width: 100%;
+}
+
+h2 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.logoBox {
   background-color: black;
-  color: white;
+  height: 25em;
+  width: 25em;
 }

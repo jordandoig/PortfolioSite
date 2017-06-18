@@ -1,4 +1,11 @@
-console.log('app is hooked up');
+var projects = [{
+  title: "title",
+  desc: "desc"
+},
+{
+  title: "title2",
+  desc: "desc2"
+}];
 
 $('document').ready(function(){
   addHover();

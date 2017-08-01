@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "PortfolioSite",
+    "public": "public",
     "rewrites": [
       {
         "source": "**",

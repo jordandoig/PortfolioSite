@@ -13,6 +13,7 @@ $('document').ready(function(){
   hideAll();
   showPortfolio();
 })
+
 function addHover () {
   $(".button").hover(function(){
     $(this).addClass("hover");

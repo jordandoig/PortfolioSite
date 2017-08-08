@@ -11,6 +11,7 @@ html, body {
   flex-direction: column;
   height: 100%;
   width: 100%;
+  margin: 0;
   background-color: #ffffff;
   color: #404041;
 }
@@ -21,12 +22,12 @@ header {
   justify-content: space-around;
   align-items: center;
   padding-top: 3.5em;
-  height: 5em;
+  height: 12%;
   width: 100%;
   color: #2A4363;
 }
 
-h2 {
+h2, p {
   margin: 0;
 }
 
@@ -34,7 +35,26 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 73%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 20%;
+  background-color: #2A4363;
+  color: #ffffff;
+}
+
+.footer-bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1em;
 }
 
 .button {
@@ -50,5 +70,8 @@ main {
 
 .logo {
   height: 12em;
+}
 
+.footer-img {
+  height: 3em;
 }

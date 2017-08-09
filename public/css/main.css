@@ -49,6 +49,10 @@ footer {
   color: #ffffff;
 }
 
+img {
+  height: 20em;
+}
+
 .footer-bot {
   display: flex;
   justify-content: center;

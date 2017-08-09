@@ -14,7 +14,7 @@ $('document').ready(function(){
   showPortfolio();
 })
 
-function addHover () {
+addHover = () => {
   $(".button").hover(function(){
     $(this).addClass("hover");
   }, function(){
@@ -22,7 +22,7 @@ function addHover () {
   });
 }
 
-function addClick () {
+addClick = () => {
   $(".button").click(function(){
     hideAll();
     switch (this.id) {
@@ -41,22 +41,31 @@ function addClick () {
   })
 }
 
-function showPortfolio () {
-  $("#portfolio").show();
-}
-
-function showAbout () {
+showAbout = () => {
   $("#about").show();
 }
 
-function showContact () {
+showContact = () => {
   $("#contact").show();
 }
 
-function showSkills () {
+showSkills = () => {
   $("#skills").show();
 }
 
-function hideAll () {
+showPortfolio = () => {
+  $("#portfolio").show();
+  addImgHover();
+}
+
+addImgHover = () => {
+  $(".ManCan-Map").hover(() => {
+    $(".ManCan-Map").attr('src', './images/portfolio/ManCan-Map-Hover.png')
+  }, () => {
+    $(".ManCan-Map").attr('src', './images/portfolio/ManCan-Map.png')
+  })
+}
+
+hideAll = () => {
   $("section").hide();
 }

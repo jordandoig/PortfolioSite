@@ -49,8 +49,9 @@ footer {
   color: #ffffff;
 }
 
-img {
+.Portfolio-Img {
   height: 20em;
+  width: 30em;
 }
 
 .footer-bot {
